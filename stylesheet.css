@@ -7,7 +7,7 @@ html, body {
 }
 html {
 /* Set background color for desktop */
-    background-color: #ff6ecf;
+    background-color: #000000;
     margin: 0 auto;
 }
 main{
@@ -18,7 +18,7 @@ main{
 body {
     width: 90%;	
     max-width: 1250px;
-    background-color:#ad56c3; 
+    background-color:#ffffff; 
     font-family: DejaVu Sans, "Verdana", "sans-serif";
     margin: 0 auto;
     padding: 0;
@@ -53,13 +53,13 @@ nav {
     text-align: center; 
 }
 a {
-	color: #c3a456
+	color: #f8c954;
 }
 a:visited {
-	color: #FFDE21;
+	color: #c7c804;
 }
 a:hover {
-	color: #FF6700;
+	color: #74b0bf;
 }
 a:focus {
 	outline: thin dotted;
