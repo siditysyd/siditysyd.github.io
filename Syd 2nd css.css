@@ -1,0 +1,51 @@
+/* General setup */
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  @font-face {
+    font-family: 'arial'
+	format: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+}
+
+body {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Form Styling */
+select, input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/*   Form Focus  */
+select:focus, input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/*  Valid Form */
+select:focus:valid, input:focus:valid {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+/*  Invalid Form  */
+select:focus:invalid, input:focus:invalid {
+  border-color: #dc3545;
+  box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+}

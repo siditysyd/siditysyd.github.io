@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  
+<!-- Link to the first CSS file -->
+	<link rel="Stylesheet" href="Syd 1st CSS.css">
+
+	</head>
+	
+	
+<body>
+<!-- Header Section -->
+  <header>
+    <div="container">
+      <h1>All About Me</h1>
+      <nav>
+        <ul>
+          <li><a href="Syd 3rd HTML doc.html">Art</a></li>
+          <li><a href="Syd 2nd HTML doc.html ">Food</a></li>
+          <li><a href="Planting">Plants</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  
+  
+ <button onclick="showAlert()">Click Me</button>
+  <script>
+    // Function to show an alert
+    function showAlert() {
+      alert("Hello! You've come across my terribly formatted website. I'm sorry you had to see this!");
+    }
+  </script>
+  
+   <p>Stay active to avoid the popup!</p>
+
+  <script>
+    // Function to display the popup
+    function showPopup() {
+      alert("Are you still there?");
+    }
+
+    // Set a timer to show the popup after 10 minutes (600,000 milliseconds)
+    setTimeout(showPopup, 600000);
+  </script>
+  
+</body>
+</html>
+
+
+
+<body>
+     <!--Math Method-->
+  <p>You've visited this page <span id="visitCount">0</span> times.</p>
+
+  <script>
+    // Check if the visit count is already stored in localStorage
+    let visitCount = localStorage.getItem('visitCount');
+
+    // If there's no visit count in localStorage, set it to 0
+    if (visitCount === null) {
+      visitCount = 0;
+    }
+
+    // Increment the visit count by 1
+    visitCount++;
+
+    // Store the updated visit count back in localStorage
+    localStorage.setItem('visitCount', visitCount);
+
+    // Display the visit count in the page
+    document.getElementById('visitCount').textContent = visitCount;
+  </script>
+</body>
+
+
+
+ <!-- About Section -->
+  <section id="About Me">
+    <div class="container">
+      <h2>Hi, I'm Sydnee </h2>
+      <p>I'm a an IT tech that is trying to learn how to code in order to create websites as well as apps and other types of software. I have been in IT for 6 going on 7 years now. I mostly have done helpdesk and desktop support, I've done laptop/ desktop setup as well. I am a mother of 2 children; a boy that is 4 and a girl that is 10 months. I have a lot of hobbies and things that I enjoy doing and you will be finding out a lot more aout me as you continue going through my website.</p>
+    </div>
+  </section>
+
+ 
+<!-- Planting Section -->
+  <section id="Planting">
+    <div class="container">
+      <h2>Plants</h2>
+      <p>I am a plant mom. I have over 30 different types of plants. Most of them are houseplants as I don't like bugs. I find joy in being able to grow plants from small seeds into large beautiful plants. They also make my house look amazing and some of the plants help to purify the air. </p>
+    </div>
+  </section>
+  
+  
+  
+<html>
+<!--Display Date and Time--> 
+<head></head>
+<body>
+<p id="p1"></p>
+<script>
+	var date = new Date();
+	document.getElementById("p1").innerHTML = date;
+</script>
+</body>
+</html> 
+
+
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+</style>
+</head>
+
+
+
+<body>
+<!--Countdown to December 31st--> 
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("December 31, 2024 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</body>
+</html> 
+
+
+<!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>2024 Sydnee Verbal | All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
