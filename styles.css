@@ -11,7 +11,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;	
-	padding: auto;
+	padding: 20px;
 }
 body {
     width: 88.2%;	
@@ -19,18 +19,17 @@ body {
     background-color: #c3a456; 
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
     margin: 0 auto;
-    padding: 0;
+    padding: 20px;
     text-align: left;
     float: none;
     box-sizing: border-box;
     box-shadow: 5px, 5px, 10px, 0px, #90ee90;
-	padding: auto;
 }
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;	
-	padding: auto;
+	padding: 20px;
 }
 figure figcaption {
     text-align: center;	
@@ -71,4 +70,5 @@ footer a {
 	text-align: center; 
 	margin: 0 15px;
 }
+
 
